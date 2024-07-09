@@ -1,0 +1,11 @@
+.header{
+    background-color: black;
+    height: 80px;
+    display : flex;
+    justify-content:space-between;
+}
+.header p{
+  color: #767676;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
