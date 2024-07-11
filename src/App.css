@@ -15,15 +15,16 @@ h1,p{
   width: 80%; /* 전체 너비에서 양옆 여백만큼 빼기 */
   margin: 0 auto; /* 가운데 정렬 */
   height: 100vh;
+
 }
 
 .header {
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px; /* 좌우 20px의 내부 여백 추가 */
 }
+
 .App {
   text-align: center;
 }

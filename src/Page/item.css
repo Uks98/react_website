@@ -1,0 +1,45 @@
+/* src/components/ImageGallery.css */
+
+.image-gallery {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  
+  .gallery-item {
+    margin-left: 40px;
+    text-align: left;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .gallery-item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color:#767676;
+  }
+  
+  .gallery-item p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+ 
+  @media (max-width: 768px) {
+    .image-gallery {
+        display: flex;
+        margin-left: 30px;
+        margin-top: 40px;
+        flex-wrap: wrap;
+        gap: 0px;
+      }
+      .MainImage{
+        width: 400px;
+      }
+  }

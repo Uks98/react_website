@@ -5,6 +5,9 @@ import Logo from './logo.js'
 import MainNav from './mainNav.js'
 import ImageSlider from './imageSlider.js'
 import IntroText from './introText.js'
+import Items from './Items.js'
+import Footer from './footter.js'
+import { Mobile, PC } from "./MediaQuery.js"
 function Main() {
   return (
     <div className="container">
@@ -24,6 +27,9 @@ function Main() {
       <MainNav />
       <ImageSlider />
       <IntroText />
+      <Items />
+      <Items />
+      <Footer />
     </div>
   );
 }

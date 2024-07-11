@@ -13,7 +13,11 @@
   padding: 20px 200px; /* 위아래 20px, 양옆 30px 여백 */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+}
 .nav {
   display: flex;
   align-items: center;
