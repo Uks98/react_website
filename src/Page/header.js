@@ -8,13 +8,16 @@ import IntroText from './introText.js'
 import Items from './Items.js'
 import Footer from './footter.js'
 import { Mobile, PC } from "./MediaQuery.js"
+import { Link, Route, Routes } from "react-router-dom";
+
+
 function Main() {
   return (
     <div className="container">
       <header className="header">
         <div className="nav">
           <ul>
-            <li><a href="#">Login or Create an Account</a></li>
+            <li><Link to="/login">Login or Create an Account</Link></li>
           </ul>
         </div>
         <div className="search-container">

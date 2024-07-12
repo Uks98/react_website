@@ -1,0 +1,32 @@
+.text-field {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .text-field.active {
+    border: 2px solid #007bff;
+  }
+  .separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 3;
+    border-bottom: 1px solid gray;
+  }
+  
+
+  
+  .separator-text {
+    padding: 0 10px;
+    color: gray;
+  }
+  
