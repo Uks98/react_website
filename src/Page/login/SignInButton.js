@@ -2,7 +2,7 @@
 
 function LoginButton(props){
    return (
-    <button>
+    <button className={props.className} onClick={()=>{console.log("버튼클릭")}}>
       <p>{props.name}</p>
     </button>
   );
