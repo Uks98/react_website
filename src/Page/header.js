@@ -9,7 +9,7 @@ import Items from './Items.js'
 import Footer from './footter.js'
 import { Mobile, PC } from "./MediaQuery.js"
 import { Link, Route, Routes } from "react-router-dom";
-
+import Maps from "./maps/maps.js"
 
 function Main() {
   return (
@@ -21,7 +21,7 @@ function Main() {
           </ul>
         </div>
         <div className="search-container">
-          <a href="#">Cart: 0 Items</a>
+          <Link to="/cart">Cart: 0 Items</Link>
           <input type="text" placeholder="Search..." />
         </div> 
       </header>
@@ -33,6 +33,7 @@ function Main() {
       <Items />
       <Items />
       <Footer />
+  
     </div>
   );
 }
